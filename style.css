@@ -1,0 +1,44 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+
+}
+body{
+    background-color:floralwhite;
+}
+#test-container{
+    padding: 5% 3%;
+    margin: 2px;
+
+
+
+}
+.grid-item{
+    margin-bottom: 20px;
+
+}
+ #test-1{
+    
+color:white;
+    background-color: darkslateblue;
+ }
+ #test-2{
+color: white;
+background-color: darkslategray;
+
+ }
+ #test-3{
+    background-color: whitesmoke;
+
+
+ }
+ #test-4{
+    background-color: slateblue;
+    color: white;
+
+ }
+ #test-5{
+    background-color: white;
+
+ }
