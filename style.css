@@ -42,3 +42,33 @@ background-color: darkslategray;
     background-color: white;
 
  }
+  .grid-item{ */
+     margin-bottom: 20px;
+     padding: 20px; 
+  }
+
+
+
+
+
+  @media(min-width: 576px){
+    #test-container {
+        display: flex;
+
+
+    }
+    #main-left{
+        display: flex;
+        flex-direction: column;
+    }
+#test-5{
+    flex-basis: 30%;
+}
+
+#top{
+    display: flex;
+}
+#button{
+    display: flex;
+}
+  }
