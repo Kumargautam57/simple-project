@@ -1,93 +1,67 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-
 }
 body{
-    background-color: rgb(124, 120, 120);
-   
-   
+    background-color: grey;
 }
-.container{
-    margin: 75px auto;
-    width: 70%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:25px;
-   
-    
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
 
 }
-.first{
-    background-color: #333;
-    border-radius: 0.5rem;
+.card{
+    width: 320px;
+    margin: 20px;
+    height: 415px;
+    border-radius: 1rem;
     
+    box-shadow: 1rem solid black;
+    background-color: rgb(190, 163, 244);
+    overflow: hidden;
 }
-.second{
-    background-color: #333;
-    border-radius: 0.5rem;
-    
-    
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
-.third{
-    background-color: #333;
-    border-radius: 0.5rem;
+.blog-content{
+    padding: 16px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
     
-}
- .h2{
-    align-items: center;
-    align-content: center;
-    padding-left: 200px;
+  
     
-}
-
-.first .car{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
 
 }
 .car{
-    display: flex;
-    height: 335px;
-    
-    padding-top: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin-bottom: 22px;
+    font-size: 25px;
+    margin-bottom: 2px;
+    font-family: sans-serif;
+    text-align: center;
     
 }
-.bus{
-    display: flex;
-    height: 320px;
-    padding-left: 14px;
-    padding-top: 14px;
-    padding-right: 14px;
-    margin-bottom: 25px;
-
-
+.paragrah{
+    font-size: 14px;
 }
-.aeroplane{
-    display: flex;
-    height: 317px;
-    padding-left: 14px;
-    padding-top: 14px;
-    padding-right: 14px;
-    margin-bottom: 22px;
-
+h4{
+   color:rgb(59, 48, 48);
+   font-size: 14px; 
+   margin-bottom: 10px;
+   margin-top: 5px;
 }
-.container a{
-    color:#222;
-    display: inline-block;
-    border-radius: 5px;
-    font-size: 18px; 
-    letter-spacing: 2px;
-    background-color: #d6c954;
-    padding: 10px;
-    border-radius:5px ;
-    margin-bottom: 20px;
-    align-items: center;
+.Read-more{
+    font-size: 15px;
     align-content: center;
+    color: #f1f1f1;
+    display: inline;
+    background-color: #3d6d80;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding:8px 12px;
 }
